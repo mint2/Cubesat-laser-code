@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <errno.h>
 #include <dirent.h>
-//#include <sidekiq_api.h>
+#include <sidekiq_api.h>
 
 
 //Weird thing for running it in visual studio
