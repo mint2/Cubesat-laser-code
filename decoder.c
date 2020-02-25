@@ -1,17 +1,29 @@
 //DECODER
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <errno.h>
+#include <dirent.h>
+#include <sidekiq_api.h>
 
-int main2()
+
+//Weird thing for running it in visual studio
+#pragma warning(disable:6031) 
+#pragma warning(disable:4996)
+//Weird thing for running it in visual studio
+
+
+int main()
 {
 
   FILE *fp, *decoded;
-	errno = 0;
-	fp = fopen("output.txt", "r"); // adjust to actual name
-	if (fp == NULL)
-	{
-		printf("Unable to open this file");
-		return 0;
-	}
+  errno = 0;
+  fp = fopen("output.txt", "r"); // adjust to actual name
+  if (fp == NULL)
+  {
+	printf("Unable to open this file");
+	return 0;
+  }
   
   decoded = fopen("binary2.txt", "w");
   if (decoded == NULL)
