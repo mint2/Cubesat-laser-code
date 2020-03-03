@@ -1,6 +1,6 @@
 initialD = open('initialData.txt', 'r')
 encodedD = open('encodedData', 'w')
-
+#python is way too easy
 dArr = []
 for i in range(7):
   dArr.append(initialD.read(1))
