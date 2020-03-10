@@ -1,3 +1,10 @@
+/*
+
+C CODE FOR DECODER PROGRAM
+
+*/
+
+
 //DECODER
 
 #include <stdio.h>
