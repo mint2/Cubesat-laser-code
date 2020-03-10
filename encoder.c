@@ -1,3 +1,10 @@
+/*
+
+C CODE FOR ENCODER PROGRAM
+
+*/
+
+
 //ENCODER
 
 #include <stdio.h>
