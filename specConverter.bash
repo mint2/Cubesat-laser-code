@@ -1,3 +1,11 @@
+##################################################################
+
+#PSEUDOCODE FOR SPECTROMETER FILE CONVERTER
+
+#This file is meant to convert spectrometer files into binary files to be read by the encoder/decoder python script
+##################################################################
+
+
 xxd -r filename.spe > bin
 xxd -r imageFile.spe > imBin
 
