@@ -1,2 +1,2 @@
 # Cubesat-laser-code
-welcome cubesat people
+Welcome cubesat people, future and present
