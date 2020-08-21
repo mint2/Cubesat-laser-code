@@ -3,4 +3,4 @@ Hello CubeSat people! This is the Github repository for the code for the laser c
 
 We did not get to finish testing this code on a Z2, so I would recommend starting there. Put these files on a Z2 and run them to see if there are any issues, and if you have the time you would probably consider setting up a real test with a laser and the OGRE to see if the code works as intended.
 
-I wish you good luck completing IRVINE-03! I am graduating this year and cannot finish this task, since CubeSat has been paused as of now due to the pandemic. If you have any questions or for some reason need to reach me, then email me at this address: connor.j.stewart5@gmail.com
+I wish you good luck completing IRVINE-03! I am graduating this year and cannot finish this task, since CubeSat has been paused as of now due to the pandemic. I leave to you this code and the hope that you will be able to finish the satellite. If you have any questions or for some reason need to reach me, then email me at this address: connor.j.stewart5@gmail.com
