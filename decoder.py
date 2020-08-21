@@ -1,5 +1,6 @@
 receiveD = open('receivedData.txt', 'r')
 finalD = open('finalData.txt', 'w')
+finalString = ""
 
 majority = []
 temp = []
@@ -18,11 +19,16 @@ while receiveD.tell() < size:
       if majority[k][p] == 1:
         maj1 += 1
   if maj1 > 1:
-    finalD.append(1)
+    finalString = finalString + "1"
+    #finalD.append(1)
   else:
-    finalD.append(0)
+    finalString = finalString + "0"
+    #finalD.append(0)
       #may need to flip p and k
 
+finalString = str(hex(int(finalString, 2)))
+
+finalD.append(finalString)
 
 receiveD.close()
 finalD.close()
